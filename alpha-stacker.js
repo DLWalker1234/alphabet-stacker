@@ -12,6 +12,9 @@ function stackLetters (alphabet) {
     for (var i=0; i < alphabet.length; i++) {
     	stack += alphabet[i]
     	console.log(stack)
+    	if (i%3 === 2) {
+    		stack += " "
+    	};
     };
 };
 
